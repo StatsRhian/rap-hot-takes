@@ -1,7 +1,7 @@
 ---
 title: "Reproducible Analytical Pipelines"
 subtitle: "My personal hot takes 🔥"
-author: "[Rhian Davies](mailto:statsrhian@gmail.com)"
+author: "[Dr Rhian Davies](mailto:statsrhian@gmail.com)"
 date: 2026-05-21
 format: su-theme-revealjs
 execute: 
@@ -9,36 +9,36 @@ execute:
 footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands linkedin >}} [@statsRhian](https://bsky.app/profile/statsrhian.bsky.social) &nbsp; &nbsp; {{< fa laptop-code >}} [rhian.rbind.io](https://rhian.rbind.io)"
 ---
 
-[ds_presentations]: https://the-strategy-unit.github.io/data_science/presentations/YOUR_PRESENTATIONS_FOLDER
-
-
 ## 🏛️ My RAP Pillars
 
 - 🔍 **Visible**: Can I find it?
 
-- ♻️ **Reusable**: Can I make it work for me?
+- 🔁 **Reusable**: Can I adapt it?
 
-- ✅ **Reliable**: Can I trust it?
+- 🛡️ **Reliable**: Can I trust it?
 
-## 🔍 Visible
+## 🔍 Can I find it?
 
 - Public and open 🔓
-- Discoverable 
-- README 
-- LICENSE 📃
+- Discoverable 🌐
+- Clear README & examples 📖
+- LICENSE included 📃
 
-## ♻️ (Re)Usable
+## 🔁 Can I adapt it?
 
-- 🔓 Open source languages 
-- 🧱 Modular code 
-- 📦 Easy to install 
-- 📖 Documented 
+- Open-source languages 🔓
+- Well documented 📚
+- Consistent code style 💅
+- Modular 🧩
+- Configurable ⚙️
+- Easy to install 📦
 
-## ✅ Reliable
+## 🛡️ Can I trust it?
 
-- 🧪 Tested 
-- 👩‍💻 Peer reviewed 
--  Environments 
+- Tested 🧪
+- Automated checks 🤖
+- Peer reviewed 👩‍💻
+- Reproducible environments 🌱
 
 
 # {.center}
@@ -102,14 +102,10 @@ extract_numeric_from_factor <- function(factor) {
 
 :::
 
-::: aside
-Try _saying_ before naming
-:::
-
 ## {.center}
 
 ::: r-fit-text
-**Reusable** ♻️
+**[Reusable](https://rhian.rbind.io/talks/2024-11-22-reusability/)** ♻️
 :::
 
 ::: r-fit-text
@@ -126,7 +122,7 @@ Open first 🔓
 ## {.center}
 
 ::: r-fit-text
-You [don't need friends](https://statsrhian.github.io/2048/) 👩‍💻
+You [don't need friends](https://github.com/statsrhian/2048) 👩‍💻
 :::
 ::: r-fit-text
 to use Git
@@ -140,27 +136,45 @@ but it helps
 ## {.center}
 
 ::: r-fit-text
-Anyone
+[Anyone](https://rhian.rbind.io/talks/2026-02-25-rainbowr-pkg/)
 :::
 
 ::: r-fit-text
- can [build an R package](https://rhian.rbind.io/talks/2026-02-25-rainbowr-pkg/) 📦
+ can build an R package 📦
 :::
+
+## Myths ❌
+
+It doesn't have to...
+
+- have hundreds of functions
+- be useful for anyone else
+- do anything fancy
+- be on CRAN
+- be scary
 
 ## {.center}
 
 ::: r-fit-text
- [Ditch the QA Spreadsheets](https://rhian.rbind.io/talks/2026-02-25-rainbowr-pkg/)
+[Ditch QA](https://rhian.rbind.io/talks/2025-11-13-qa-in-github/)
+:::
+
+::: r-fit-text
+(spreadsheets). Make QA work for you.
 :::
 
 ## {.center}
 
+![](img/yeah-nah-qa.png){fig-alt="Drake Nah-Yeah meme. Nah is a colourful spreadsheet, Yeah is a number of QA tasks in GitHub."}
+
+## {.center}
+
 ::: r-fit-text
-It  doesn't have to be perfect
+It doesn't have to be
 :::
 
 ::: r-fit-text
-Anything you do to make your code RAP will make it better
+perfect ✨
 :::
 
 
@@ -173,7 +187,7 @@ Anything you do to make your code RAP will make it better
 - RAP drop-in [sign up](https://www.smartsurvey.co.uk/s/XPUHSJ) & [discussions](https://github.com/The-Strategy-Unit/RAP_Drop_In/discussions)
 - RAP [Code Review Buddies Network](https://github.com/The-Strategy-Unit/RAP_Drop_In/wiki/Code-Review-Buddies-Network)
 - NHS Open Analytics [slack #rap](https://nhsoacommunity.slack.com/signup#/domain-signup)
-- Message me @statsRhian 😊
+- Chat with me @statsRhian 😊
 
 :::
 
